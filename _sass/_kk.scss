@@ -1,0 +1,29 @@
+::selection {
+    background-color: #E61E25;
+    color: #FFFFFF;
+}
+body {
+	background: #FFFEF2;
+}
+p {
+	font-size: 13px;
+	color: #444444;
+}
+a {
+	color: #E61E25;
+	&:hover {
+		color: #000000;
+	}
+}
+.wrapper {
+}
+.Header {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	a {
+		color: #555555;
+	}
+}
+.Signature {
+	width: 50%;
+}
