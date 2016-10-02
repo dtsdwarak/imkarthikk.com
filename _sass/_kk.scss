@@ -5,7 +5,7 @@
 body {
 	background: #FFFEF2;
 }
-p {
+p, ul, li, ol {
 	font-size: 13px;
 	color: #444444;
 }
@@ -28,4 +28,16 @@ a {
 .Signature {
 	padding-top: 50px;
 	width: 50%;
+}
+.push-right {
+	padding-right: 5px;
+}
+.Social {
+	padding-top: 20px;
+	a {
+		color: #B1B1B1;
+		&:hover {
+			color: #E61E25;
+		}
+	}
 }
